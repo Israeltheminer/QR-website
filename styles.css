@@ -1,0 +1,85 @@
+
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-size: 16px;
+  font-family: Outfit sans-serif;
+  text-align: center;
+  width: auto;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: purple;
+}
+
+.qrcodediv{
+  position: relative;
+  width: 20%;
+  margin: 125px auto;
+  margin-bottom: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 4%;
+}
+
+.qrcode{
+  border-radius: 5%;
+  width: 90%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.head{
+  display: block;
+  position: relative;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 80%;
+  margin: auto;
+  padding-top: 5%
+}
+
+.instruction{
+  display: block;
+  position: relative;
+  font-weight: lighter;
+  color: gray;
+  font-size: 0.7rem;
+  width: 80%;
+  margin: 5% auto;
+  padding-bottom: 10%;
+}
+
+.bottom-container{
+  background-color: hsl(228, 45%, 44%);
+  position: relative;
+  padding-top: 45px;
+  margin-top: 90px;
+  width: inherit;
+  height: 40px;
+  bottom: 0;
+}
+
+.attribution{
+  display: inline;
+  color:  white;
+  bottom: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.challenger{
+  margin-right: 20px;
+}
+
+.coder{
+  margin-right: 20px;
+}
